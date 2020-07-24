@@ -22,14 +22,16 @@ const { RangePicker } = DatePicker;
 //将state中的数据变成当前组件的props
 function mapStateToProps(state) {
     return {
-        goodList: state.good.goodList
+        goodList: state.good.goodList,
+        goodBaseInfo: state.good.goodBaseInfo
     }
 }
 
 //将Action动作转为当前组件的props
 function mapDispatchToProps(dispatch) {
     return {
-        getGoodsList: (params) => dispatch(getGoodsList(params))
+        getGoodsList: (params) => dispatch(getGoodsList(params)),
+        getGoodBaseInfo: (params) => dispatch(getGoodBaseInfo(params))
     }
 }
 

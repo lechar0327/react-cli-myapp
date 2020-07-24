@@ -1,4 +1,4 @@
-import { Cate_SELECT, GOOD_QUERY } from '../actionTypes';
+import { Cate_SELECT, GOOD_QUERY ,GOODBASEINFO_QUERY} from '../actionTypes';
 import { goodapi } from '@/utils'
 
 //异步获取品类的Action
