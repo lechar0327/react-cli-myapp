@@ -13,7 +13,7 @@
 
 .main{
     width: 600px;
-    height: 610px;
+    height: 100%;
     border: 1px solid greenyellow;
     float: left;
 }
