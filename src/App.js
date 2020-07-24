@@ -6,7 +6,7 @@ import { HashRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from '@/store';
 import Login from '@/components/login/Login';
-
+//饥渴233333333333333333333333333333
 export default class App extends React.Component {
   state = {
     isLogin: localStorage.getItem('token')
